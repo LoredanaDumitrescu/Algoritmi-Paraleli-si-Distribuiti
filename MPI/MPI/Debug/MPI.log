@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\loredana\documents\visual studio 2015\projects\mpi\mpi\source.cpp(66): warning C4553: '==': operator has no effect; did you intend '='?
+  MPI.vcxproj -> C:\Users\Loredana\Documents\Visual Studio 2015\Projects\MPI\Debug\MPI.exe
+  MPI.vcxproj -> C:\Users\Loredana\Documents\Visual Studio 2015\Projects\MPI\Debug\MPI.pdb (Partial PDB)
