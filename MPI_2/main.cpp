@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-    //reuneste toate pozitiile in vectorul finalFound prin intermediul MPI_Reeduce
+    //reuneste toate pozitiile in vectorul rezultat prin intermediul MPI_Reduce
 	MPI_Reduce(&poz, &rezultat, 1, MPI_INT, MPI_MAX, 0, MPI_COMM_WORLD);
 
 	if(0 == rank) {
