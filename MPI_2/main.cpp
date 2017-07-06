@@ -10,10 +10,10 @@ int main(int argc, char *argv[])
 {
     int  rank;
     int  nrp;   // nr procese
-	int v[SIZE]={ 7, 8, 9, 1, 2, 4, 5, 6 };
+	int v[SIZE]={ 7, 8, 9, 1, 2, 4, 5, 9};
 	int i, x, inceput, sfarsit, rezultat;
 	int pozitie=0;
-	int cautat=6;
+	int cautat=9;
 
 
     MPI_Init(&argc, &argv);
